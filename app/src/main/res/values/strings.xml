@@ -1,0 +1,82 @@
+<resources>
+    <string name="app_name">Intents</string>
+
+    <!-- Main ListView Activities -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="myStringArray">
+        <item>Phone</item>
+        <item>Web</item>
+        <item>Setting</item>
+        <item>General</item>
+        <item>Camera</item>
+        <item>Map</item>
+        <item>Contacts</item>
+        <item>Calendar</item>
+    </string-array>
+
+    <!-- Phone Activities -->
+    <string-array name="phoneActivities">
+        <item>ACTION_DIAL</item>
+        <item>ACTION_CALL</item>
+        <item>ACTION_SEND</item>
+    </string-array>
+
+    <!-- Web Activities -->
+    <string-array name="webActivities">
+        <item>ACTION_WEB_SEARCH</item>
+        <item>ACTION_VIEW</item>
+        <item>ACTION_SEND</item>
+    </string-array>
+
+    <!-- Setting Activities -->
+    <string-array name="settingActivities">
+        <item>ACTION_WIFI_SETTINGS</item>
+        <item>ACTION_WIRELESS_SETTINGS</item>
+        <item>ACTION_AIRPLANE_MODE_SETTINGS</item>
+        <item>ACTION_SETTINGS</item>
+        <item>ACTION_APN_SETTINGS</item>
+        <item>ACTION_BLUETOOTH_SETTINGS</item>
+        <item>ACTION_DATE_SETTINGS</item>
+        <item>ACTION_LOCALE_SETTINGS</item>
+        <item>ACTION_INPUT_METHOD_SETTINGS</item>
+        <item>ACTION_DISPLAY_SETTINGS</item>
+        <item>ACTION_SECURITY_SETTINGS</item>
+        <item>ACTION_LOCATION_SOURCE_SETTINGS</item>
+        <item>ACTION_INTERNAL_STORAGE_SETTINGS</item>
+        <item>ACTION_MEMORY_CARD_SETTINGS</item>
+    </string-array>
+
+    <!-- General Activities -->
+    <string-array name="generalActivities">
+        <item>ACTION_SET_ALARM</item>
+        <item>ACTION_SET_TIMER</item>
+        <item>ACTION_SHOW_ALARMS</item>
+        <item>ACTION_INSERT</item>
+        <item>ACTION_OPEN_DOCUMENT</item>
+        <item>ACTION_VIEW</item>
+    </string-array>
+
+    <!-- Camera Activities -->
+    <string-array name="cameraActivities">
+        <item>ACTION_IMAGE_CAPTURE</item>
+        <item>ACTION_VIDEO_CAPTURE</item>
+        <item>INTENT_ACTION_STILL_IMAGE_CAMERA</item>
+    </string-array>
+
+    <!--Map Activities-->
+    <string-array name="mapActivities">
+        <item>ACTION_VIEW</item>
+    </string-array>
+
+    <!--Contacts Activities-->
+    <string-array name="contactsActivities">
+        <item>ACTION_PICK</item>
+        <item>ACTION_VIEW</item>
+        <item>ACTION_INSERT</item>
+    </string-array>
+
+    <!--Calendar Activities-->
+    <string-array name="calendarActivities">
+        <item>ACTION_INSERT</item>
+    </string-array>
+</resources>
