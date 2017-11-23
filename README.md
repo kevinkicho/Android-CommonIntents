@@ -1,8 +1,8 @@
 # Android-CommonIntents
 
-Android-CommonIntents
-- Phone, Web, Map, Contacts, Camera, Settings, Storage, Calendar
-- ListView item triggers common Intent
+Main Menu
+- Phone, Web, Map, Contacts, Camera, Settings, Storage, Calendar.
+- ListView item triggers common Intent.
 
 Phone
 - Call, Open DialPad: ACTION_DIAL
