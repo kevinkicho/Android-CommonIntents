@@ -58,9 +58,9 @@ Settings
 - memoryCardSettings:  ACTION_MEMORY_CARD_SETTINGS
 
 Descriptions:
-<html>
- <h3>Description</h3>
-                    <p>Intents are often used to facilitate communication between activities, applications. Application uses ListView, ArrayAdapter to provide User Interface. It uses Intents to start: call, camera, web-search, map activities.</p>
+
+ Description
+Intents are often used to facilitate communication between activities, applications. Application uses ListView, ArrayAdapter to provide User Interface. It uses Intents to start: call, camera, web-search, map activities.
 
                     <h3>Functions</h3>
                     <p>Application is composed of MainActivity that Lists various Intents into categories, and 8 Activities for specific functions. 8 Activities contains methods to start intents within category, for example: camera has 2 methods(photo, video). ArrayAdapter class has 2 parts: constructor, getItemId(). A constructor is used in activity to bind string-array. String-array contains lists of intent-names that are to be displayed on ListView. getItemId() method recognizes the position of item that is returned for communciation with switch/case phrase in Activities. </p>
