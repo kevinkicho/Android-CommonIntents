@@ -3,10 +3,11 @@
 Android-CommonIntents is an Android Application that uses ListView to display 28 common intents described in Android Developers.
 It utilizes various hardware components to execute intents.
 
-<div style="display: inline-block; width:40%">
-<img src="https://firebasestorage.googleapis.com/v0/b/cfmvw-cf878.appspot.com/o/GitHub%2FMainMenu.PNG?alt=media&token=46e0c8f9-6c9d-463b-a100-bf2731b96a13" style="width:40%">
-<img src="https://firebasestorage.googleapis.com/v0/b/cfmvw-cf878.appspot.com/o/GitHub%2FMainMenu.PNG?alt=media&token=46e0c8f9-6c9d-463b-a100-bf2731b96a13" style="width:40%">
-<img src="https://firebasestorage.googleapis.com/v0/b/cfmvw-cf878.appspot.com/o/GitHub%2FMainMenu.PNG?alt=media&token=46e0c8f9-6c9d-463b-a100-bf2731b96a13" style="width:40%">
+<div style="display: inline-block; align-content: center; position:relative; left: 15%">
+                        
+<img src="https://firebasestorage.googleapis.com/v0/b/cfmvw-cf878.appspot.com/o/images_cfmvw%2FMainMenu.PNG?alt=media&token=888831bc-7196-47cc-8d3e-c866ac115c93" style="width: 20%">
+<img src="https://firebasestorage.googleapis.com/v0/b/cfmvw-cf878.appspot.com/o/images_cfmvw%2FIntents_Web.PNG?alt=media&token=65c2a0b2-44f2-4369-8dbf-e26a87a06a6d" style="width: 20%">
+<img src="https://firebasestorage.googleapis.com/v0/b/cfmvw-cf878.appspot.com/o/images_cfmvw%2FIntents_Camera.PNG?alt=media&token=c42394c9-3159-4bd8-bca5-a9dac0223e39" style="width: 20%">
 </div>
 Main Menu
 - Phone, Web, Map, Contacts, Camera, Settings, Storage, Calendar.
