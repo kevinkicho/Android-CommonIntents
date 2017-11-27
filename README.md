@@ -61,30 +61,30 @@ Settings
 <h2>Description</h2>
 Intents are often used to facilitate communication between activities, applications. Application uses ListView, ArrayAdapter to provide User Interface. It uses Intents to start: call, camera, web-search, map activities.
 
-Functions
+<h2>Functions</h2>
 Application is composed of MainActivity that Lists various Intents into categories, and 8 Activities for specific functions. 8 Activities contains methods to start intents within category, for example: camera has 2 methods(photo, video). ArrayAdapter class has 2 parts: constructor, getItemId(). A constructor is used in activity to bind string-array. String-array contains lists of intent-names that are to be displayed on ListView. getItemId() method recognizes the position of item that is returned for communciation with switch/case phrase in Activities. 
 Switch/case phrases are loaded with methods that presents ListView for display. Every methods are of type void, with simple Intent to start activities.
                     
-Set-Up
+<h2>Set-Up</h2>
 Blank Android Application is created. Main Activity chooses Item by ListView, with Switch/cases as available lists. Context is said in Android Developer Reference: "It allows access to application-specific resources and clases, as well as up-calls for application-level operations such as launching activities, broadcasting and receiving intents, etc." View is a variable that listing function takes in, and it can be simply described as what shall be displayed in the layout.
 
-MainActivity
+<h2>MainActivity</h2>
 Taking captureVideo() method at CameraLVActivity, two things are observed. First is intent declaration and execution, Second is resolveActivity() with packageManager loaded. Intent constructor looks like this:
 <code>Intent i = new Intent(packageContext, class);<br>startActivity(i);</code>
 
 startActivity() execute the intent, i.e. intent to start activity that is declared within the constructor by its name. resolveActivity() method loads in packageManager to check if application to handle the event is present within application. Intents that requires access to hardware or different application needs permission to use them or reach them. Such permission are declared within Android Manifest.
 
-ListView
+<h2>ListView</h2>
 ListView is composed of four parts: ListView item noted on Layout xml file, ListView object declared within Activity, ListAdapter, Data to display. ListView in layout file requires id to communicate with activity and declaration. In Activity, for the item to display is string, string-array is recognized as array object. Often is the case that ListView item contain what is: fragment, with images often attached. ListView Adapter is a custom class which extends ArrayList interface. RecyclerView presents enhanced displaying ability for long list of itmes, for it adds/removes items as it enters/exits view.
 
-Photo Capturing Activity
+<h2>Photo Capturing Activity</h2>
 
 There are two common types of permission that are associated with intents. First is request for permission to use hardware, and Second is request for permission to access appropriate software. Hardware access is declared as child of manifest declaration.
 <code>&lt;uses-permision android:name="android.permission.CAMERA"/&gt;</code>
                     
 Photo capturing activity is associated with application's access to resulting photo. Intent-Filter provides 2 tests to enable application to execute what are implicit intents: which does not require specific component(class). IMAGE_CAPTURE action declared within intent-filter notes requirements to access media folder.
 
-Web Activity
+<h2>Web Activity</h2>
 Web Search activity requires &lt;data&gt; phrase which helps process URL object.
 <code>&lt;data android:scheme="http"/&gt;<br>&lt;data android:scheme="https"/&gt;</code>
                     
