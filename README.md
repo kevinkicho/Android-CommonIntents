@@ -3,6 +3,7 @@
 Android-CommonIntents is an Android Application that uses ListView to display 28 common intents described in Android Developers.
 It utilizes various hardware components to execute intents.
 
+<img src="https://firebasestorage.googleapis.com/v0/b/cfmvw-cf878.appspot.com/o/GitHub%2FMainMenu.PNG?alt=media&token=46e0c8f9-6c9d-463b-a100-bf2731b96a13">
 Main Menu
 - Phone, Web, Map, Contacts, Camera, Settings, Storage, Calendar.
 - ListView item triggers common Intent.
