@@ -1,7 +1,7 @@
 # Android-CommonIntents
 
 Android-CommonIntents is an Android Application that uses ListView to display commonly used intents.
-It utilizes various hardware components to execute intents.
+It executes intents which utilizes various hardware components.
 
 <img src="https://firebasestorage.googleapis.com/v0/b/cfmvw-cf878.appspot.com/o/GitHub%2Fintents_image.PNG?alt=media&token=ee082714-f2c9-494e-a19b-454f3e663ee0">
 
