@@ -69,7 +69,7 @@ Switch/case phrases are loaded with methods that presents ListView for display. 
 Blank Android Application is created. Main Activity chooses Item by ListView, with Switch/cases as available lists. Context is said in Android Developer Reference: "It allows access to application-specific resources and clases, as well as up-calls for application-level operations such as launching activities, broadcasting and receiving intents, etc." View is a variable that listing function takes in, and it can be simply described as what shall be displayed in the layout.
 
 <h2>MainActivity</h2>
-Taking captureVideo() method at CameraLVActivity, two things are observed. First is intent declaration and execution, Second is resolveActivity() with packageManager loaded. Intent constructor looks like this:
+Taking captureVideo() method at CameraLVActivity, two things are observed. First is intent declaration and execution, Second is resolveActivity() with packageManager loaded. Intent constructor looks like this:<br>
 <code>Intent i = new Intent(packageContext, class);<br>startActivity(i);</code>
 
 startActivity() execute the intent, i.e. intent to start activity that is declared within the constructor by its name. resolveActivity() method loads in packageManager to check if application to handle the event is present within application. Intents that requires access to hardware or different application needs permission to use them or reach them. Such permission are declared within Android Manifest.
