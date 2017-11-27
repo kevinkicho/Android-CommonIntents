@@ -5,7 +5,7 @@ It utilizes various hardware components to execute intents.
 
 <img src="https://firebasestorage.googleapis.com/v0/b/cfmvw-cf878.appspot.com/o/GitHub%2Fintents_image.PNG?alt=media&token=ee082714-f2c9-494e-a19b-454f3e663ee0">
 
-Read More at my <a href="https://cfmvw.com/Android_Application_tutorial.html">blog</a>
+Read More: at my <a href="https://cfmvw.com/Android_Application_tutorial.html">Blog</a>
 
 <h1>Description</h1>
 Intents are often used to facilitate communication between activities, applications. Application uses ListView, ArrayAdapter to provide User Interface. It uses Intents to start: call, camera, web-search, map activities.
