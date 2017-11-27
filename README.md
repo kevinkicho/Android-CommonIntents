@@ -58,7 +58,7 @@ Settings
 - memoryCardSettings:  ACTION_MEMORY_CARD_SETTINGS
 
 
-Description
+<h2>Description</h2>
 Intents are often used to facilitate communication between activities, applications. Application uses ListView, ArrayAdapter to provide User Interface. It uses Intents to start: call, camera, web-search, map activities.
 
 Functions
