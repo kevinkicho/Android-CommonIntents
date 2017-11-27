@@ -37,7 +37,7 @@ Photo capturing activity is associated with application's access to resulting ph
 Web Search activity requires &lt;data&gt; phrase which helps process URL object.
 <code>&lt;data android:scheme="http"/&gt;<br>&lt;data android:scheme="https"/&gt;</code><br>
 
-<h1>List of Activities<h1>
+<h1>List of Activities</h1>
 Main Menu
 - Phone, Web, Map, Contacts, Camera, Settings, Storage, Calendar.
 - ListView item triggers common Intent.
