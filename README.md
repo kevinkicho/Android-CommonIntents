@@ -58,6 +58,7 @@ Settings
 - memoryCardSettings:  ACTION_MEMORY_CARD_SETTINGS
 
 Descriptions:
+<html>
  <h3>Description</h3>
                     <p>Intents are often used to facilitate communication between activities, applications. Application uses ListView, ArrayAdapter to provide User Interface. It uses Intents to start: call, camera, web-search, map activities.</p>
 
@@ -85,3 +86,4 @@ Descriptions:
                     <p>Web Search activity requires &lt;data&gt; phrase which helps process URL object.</p>
                     <code>&lt;data android:scheme="http"/&gt;<br>&lt;data android:scheme="https"/&gt;</code>
                     <p></p>
+                    </html>
